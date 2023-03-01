@@ -5,12 +5,12 @@ from pyrogram import Client , filters
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
 	text = """**Free Plan User**
-	Daily  Upload limit 2GB
+	Daily  Upload limit 1GB
 	Price 0
 	
 	**VIP** 
 	Daily  Upload  limit unlimited
-	Price Rs 150  🇮🇳/🌎 2.5$  per Month
+	Price Rs 40  🇮🇳/🌎 0.48$  per Month
 	
 	
 	Pay Using Upi I'd ```msmalikoffl@oksbi```
@@ -27,12 +27,12 @@ async def upgrade(bot,update):
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
 	text = """**Free Plan User**
-	Daily  Upload limit 2GB
+	Daily  Upload limit 1GB
 	Price 0
 	
 	**VIP** 
 	Daily  Upload  limit unlimited 
-	Price Rs 150  🇮🇳/🌎 2.5$  per Month
+	Price Rs 40  🇮🇳/🌎 0.48$  per Month
 	
 	
 	Pay Using Upi I'd ```msmalikoffl@oksbi```
