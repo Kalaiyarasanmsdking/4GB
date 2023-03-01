@@ -14,7 +14,7 @@ CHANNEL = os.environ.get('CHANNEL',"Kalaibots")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","")
-log_channel = int(os.environ.get("LOG_CHANNEL","Kalaibots"))
+log_channel = int(os.environ.get("LOG_CHANNEL","-1001619478027"))
 token = os.environ.get('TOKEN','5973374893:AAE8zwUb1aNLi3FcadGxfmlQ2x5cMrBRueY')
 botid = token.split(':')[0]
 MS_PIC = os.environ.get("MS_PIC", "")
